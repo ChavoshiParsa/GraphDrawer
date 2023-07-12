@@ -1,0 +1,66 @@
+body {
+  background-color: black;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  border: darkcyan 3px solid;
+  border-radius: 5px;
+  padding: 25px 10px;
+}
+
+#inputs {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 50px;
+  align-self: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.input label {
+  color: white;
+  margin-right: 10px;
+
+}
+
+.input input {
+    width: 80px;
+}
+
+#canvas {
+  background-color: black;
+  border: darkcyan 3px solid;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.submitBtn {
+  margin: 15px;
+  padding: 3px 20px;
+  font-size: 15px;
+  background-color: blue;
+  color: red;
+  border: 1px red solid;
+  border-radius: 5px;
+}
+
+.submitBtn:hover {
+  background-color: red;
+  color: blue;
+  border: 1px blue solid;
+}

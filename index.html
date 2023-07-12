@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Graph Drawer</title>
+  </head>
+  <body>
+    <div class="main">
+      <canvas id="canvas"></canvas>
+
+      <div class="control">
+        <label id="inputs">aF(bx + c) + d</label>
+        <div class="input">
+          <label for="fx">F(x)</label>
+          <select id="fx">
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="pow2">pow2</option>
+            <option value="pow3">pow3</option>
+            <option value="abs">abs</option>
+            <option value="sqrt">sqrt</option>
+            <option value="tan">tan</option>
+            <option value="pow4">pow4</option>
+            <option value="log10">log10</option>
+            <option value="log2">log2</option>
+            <option value="2 ** x">2 ** x</option>
+            <option value="10 ** x">10 ** x</option>
+            <option value="cot">cot</option>
+            <option value="x">x</option>
+            <option value="1 / x">1 / x</option>
+          </select>
+        </div>
+        <div class="input">
+          <label for="">a</label>
+          <input type="number" id="a" value="1" />
+        </div>
+        <div class="input">
+          <label for="">b</label>
+          <input type="number" id="b" value="1" />
+        </div>
+        <div class="input">
+          <label for="">c</label>
+          <input type="number" id="c" value="0" />
+        </div>
+        <div class="input">
+          <label for="">d</label>
+          <input type="number" id="d" value="0" />
+        </div>
+        <button class="submitBtn" id="submitBtn">Draw</button>
+        <div class="zoom">
+          <button class="submitBtn" id="zi">Zoom in</button>
+          <button class="submitBtn" id="zo">Zoom out</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
